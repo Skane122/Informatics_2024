@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"isuct.ru/informatics2022/internal/labs/lab4"
+	"isuct.ru/informatics2022/internal/labs/lab6"
 )
 
 func main() {
@@ -12,4 +13,6 @@ func main() {
 	fmt.Println(resultA)
 	resultB := lab4.Task_B(resultA)
 	fmt.Println(resultB)
+
+	lab6.RunLab6()
 }
