@@ -22,7 +22,6 @@ func Task_B(arr []float64) []float64 {
 	answers := []float64{}
 	for _, x := range arr {
 		answers = append(answers, Calculate(x))
-
 	}
 	return answers
 }
